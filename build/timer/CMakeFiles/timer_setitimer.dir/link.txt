@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/timer_setitimer.dir/定时器_setitimer.cpp.o  -o timer_setitimer 

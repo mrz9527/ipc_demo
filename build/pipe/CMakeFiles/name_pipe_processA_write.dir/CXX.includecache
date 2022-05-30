@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/projects/mygithub/ipc_demo/pipe/有名管道_多进程之进程A.cpp
+unistd.h
+-
+cstdio
+-
+cerrno
+-
+string
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+

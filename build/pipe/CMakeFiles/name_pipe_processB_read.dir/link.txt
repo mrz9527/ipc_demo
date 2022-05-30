@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/name_pipe_processB_read.dir/有名管道_多进程之进程B.cpp.o  -o name_pipe_processB_read 

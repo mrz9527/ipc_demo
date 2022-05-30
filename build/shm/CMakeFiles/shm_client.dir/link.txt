@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/shm_client.dir/共享内存-客户端进程.cpp.o  -o shm_client 

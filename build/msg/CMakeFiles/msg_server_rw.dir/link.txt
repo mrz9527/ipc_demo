@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/msg_server_rw.dir/消息队列-服务端进程-双向通信.cpp.o  -o msg_server_rw 

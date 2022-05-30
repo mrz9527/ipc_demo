@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/projects/mygithub/ipc_demo/timer/定时器_setitimer.cpp
+cstdio
+-
+string
+-
+unistd.h
+-
+csignal
+-
+sys/time.h
+-
+

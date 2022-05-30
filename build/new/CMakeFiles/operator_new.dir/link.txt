@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/operator_new.dir/重载new_delete.cpp.o  -o operator_new 

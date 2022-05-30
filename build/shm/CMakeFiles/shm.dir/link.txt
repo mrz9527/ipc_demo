@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/shm.dir/共享内存.cpp.o  -o shm 

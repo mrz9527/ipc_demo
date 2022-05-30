@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/name_pipe_processA_write.dir/有名管道_多进程之进程A.cpp.o  -o name_pipe_processA_write 

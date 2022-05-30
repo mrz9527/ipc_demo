@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/name_pipe_oneprocess.dir/有名管道_单进程.cpp.o  -o name_pipe_oneprocess 

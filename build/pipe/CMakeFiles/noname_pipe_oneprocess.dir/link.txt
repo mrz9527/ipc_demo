@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/noname_pipe_oneprocess.dir/无名管道_单进程.cpp.o  -o noname_pipe_oneprocess 

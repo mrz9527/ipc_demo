@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/mykill.dir/信号通信.cpp.o  -o mykill 

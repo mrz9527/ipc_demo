@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/timer_alarm.dir/定时器_alarm.cpp.o  -o timer_alarm 

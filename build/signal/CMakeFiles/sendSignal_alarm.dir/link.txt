@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/sendSignal_alarm.dir/信号发送_alarm.cpp.o  -o sendSignal_alarm 

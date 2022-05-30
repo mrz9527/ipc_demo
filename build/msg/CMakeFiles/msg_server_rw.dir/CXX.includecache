@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/projects/mygithub/ipc_demo/msg/消息队列-服务端进程-双向通信.cpp
+sys/ipc.h
+-
+sys/msg.h
+-
+cstdio
+-
+cstring
+-
+unistd.h
+-
+csignal
+-
+cstdlib
+-
+

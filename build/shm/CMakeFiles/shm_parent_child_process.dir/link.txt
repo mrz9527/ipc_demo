@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/shm_parent_child_process.dir/共享内存-父子进程通信.cpp.o  -o shm_parent_child_process 

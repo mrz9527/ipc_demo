@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/projects/mygithub/ipc_demo/msg/消息队列.cpp
+sys/ipc.h
+-
+sys/msg.h
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+

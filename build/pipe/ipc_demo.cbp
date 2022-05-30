@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ipc_demo" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\pipe\;CMake Files\signal\;CMake Files\timer\;CMake Files\shm\;CMake Files\msg\;CMake Files\sem\;CMake Files\new\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="name_pipe_processB_read">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/name_pipe_processB_read" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 name_pipe_processB_read" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="name_pipe_processB_read/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/name_pipe_processB_read" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 name_pipe_processB_read/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noname_pipe_multiprocess">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/noname_pipe_multiprocess" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 noname_pipe_multiprocess" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noname_pipe_multiprocess/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/noname_pipe_multiprocess" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 noname_pipe_multiprocess/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noname_pipe_oneprocess">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/noname_pipe_oneprocess" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 noname_pipe_oneprocess" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="noname_pipe_oneprocess/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/noname_pipe_oneprocess" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 noname_pipe_oneprocess/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="name_pipe_processA_write">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/name_pipe_processA_write" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 name_pipe_processA_write" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="name_pipe_processA_write/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/name_pipe_processA_write" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 name_pipe_processA_write/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/pipe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_kill">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_kill" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_kill" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_kill/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_kill" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_kill/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_raise_stopprocess">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_raise_stopprocess" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_raise_stopprocess" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_raise_stopprocess/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_raise_stopprocess" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_raise_stopprocess/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_raise">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_raise" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_raise" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_raise/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_raise" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_raise/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_alarm">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_alarm" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_alarm" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sendSignal_alarm/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/signal/sendSignal_alarm" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 sendSignal_alarm/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/signal/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="timer_setitimer">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/timer/timer_setitimer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 timer_setitimer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="timer_setitimer/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/timer/timer_setitimer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 timer_setitimer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="timer_alarm">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/timer/timer_alarm" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 timer_alarm" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="timer_alarm/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/timer/timer_alarm" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 timer_alarm/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/timer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_server_rw">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_server_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_server_rw" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_server_rw/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_server_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_server_rw/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_client_rw">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_client_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_client_rw" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_client_rw/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_client_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_client_rw/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_create">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_create" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_create" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_create/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_create" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_create/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_client_read">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_client_read" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_client_read" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_client_read/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_client_read" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_client_read/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_parent_child_process">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_parent_child_process" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_parent_child_process" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_parent_child_process/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_parent_child_process" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_parent_child_process/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_server_write">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_server_write" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_server_write" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shm_server_write/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/shm/shm_server_write" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 shm_server_write/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/shm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msg_client_rw">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/msg/msg_client_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 msg_client_rw" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msg_client_rw/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/msg/msg_client_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 msg_client_rw/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msg_server_rw">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/msg/msg_server_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 msg_server_rw" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msg_server_rw/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/msg/msg_server_rw" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 msg_server_rw/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/msg/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sem">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/sem/sem" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 sem" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sem/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/sem/sem" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 sem/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/sem/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="operator_new">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/new/operator_new" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 operator_new" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="operator_new/fast">
+         <Option output="/home/zhoukang/projects/mygithub/ipc_demo/build/new/operator_new" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 operator_new/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/ipc_demo/build/new/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/msg/消息队列-客户端进程-双向通信.cpp">
+         <Option target="msg_client_rw"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/msg/消息队列-服务端进程-双向通信.cpp">
+         <Option target="msg_server_rw"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/new/重载new_delete.cpp">
+         <Option target="operator_new"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/pipe/无名管道_单进程.cpp">
+         <Option target="noname_pipe_oneprocess"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/pipe/无名管道_多进程.cpp">
+         <Option target="noname_pipe_multiprocess"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/pipe/有名管道_多进程之进程A.cpp">
+         <Option target="name_pipe_processA_write"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/pipe/有名管道_多进程之进程B.cpp">
+         <Option target="name_pipe_processB_read"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/sem/信号灯.cpp">
+         <Option target="sem"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/共享内存-创建.cpp">
+         <Option target="shm_create"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/共享内存-客户端进程-双向通信.cpp">
+         <Option target="shm_client_rw"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/共享内存-客户端进程-读数据.cpp">
+         <Option target="shm_client_read"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/共享内存-服务端进程-写数据.cpp">
+         <Option target="shm_server_write"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/共享内存-服务端进程-双向通信.cpp">
+         <Option target="shm_server_rw"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/共享内存-父子进程通信.cpp">
+         <Option target="shm_parent_child_process"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/signal/信号发送_alarm.cpp">
+         <Option target="sendSignal_alarm"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/signal/信号发送_kill.cpp">
+         <Option target="sendSignal_kill"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/signal/信号发送_raise.cpp">
+         <Option target="sendSignal_raise"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/signal/信号发送_raise_暂停进程.cpp">
+         <Option target="sendSignal_raise_stopprocess"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/timer/定时器_alarm.cpp">
+         <Option target="timer_alarm"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/timer/定时器_setitimer.cpp">
+         <Option target="timer_setitimer"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/pipe/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pipe\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/pipe/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pipe\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/signal/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\signal\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/signal/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\signal\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/timer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\timer\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/timer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\timer\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\shm\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/shm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\shm\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/msg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\msg\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/msg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\msg\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/sem/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sem\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/sem/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sem\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/new/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\new\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/ipc_demo/new/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\new\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

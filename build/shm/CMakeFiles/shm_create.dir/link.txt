@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/shm_create.dir/共享内存-创建.cpp.o  -o shm_create 

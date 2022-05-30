@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/projects/mygithub/ipc_demo/shm/共享内存-客户端进程-读数据.cpp
+sys/ipc.h
+-
+sys/shm.h
+-
+cstdio
+-
+unistd.h
+-
+csignal
+-
+cstring
+-
+

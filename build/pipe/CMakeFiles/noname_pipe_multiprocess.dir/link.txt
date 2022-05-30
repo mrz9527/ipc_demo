@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/noname_pipe_multiprocess.dir/无名管道_多进程.cpp.o  -o noname_pipe_multiprocess 

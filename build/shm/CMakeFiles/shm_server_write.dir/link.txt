@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/shm_server_write.dir/共享内存-服务端进程-写数据.cpp.o  -o shm_server_write 

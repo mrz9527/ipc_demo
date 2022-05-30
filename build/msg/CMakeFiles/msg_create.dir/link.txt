@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/msg_create.dir/消息队列-创建.cpp.o  -o msg_create 

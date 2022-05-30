@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/sendSignal_kill.dir/信号发送_kill.cpp.o  -o sendSignal_kill 

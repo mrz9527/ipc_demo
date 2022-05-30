@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/msg.dir/消息队列.cpp.o  -o msg 

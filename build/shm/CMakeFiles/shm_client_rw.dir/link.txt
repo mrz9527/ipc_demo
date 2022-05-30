@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/shm_client_rw.dir/共享内存-客户端进程-双向通信.cpp.o  -o shm_client_rw -lpthread 

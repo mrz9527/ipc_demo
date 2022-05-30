@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhoukang/projects/mygithub/ipc_demo/signal/信号发送_alarm.cpp
+cstdio
+-
+cstdlib
+-
+csignal
+-
+unistd.h
+-
+time.h
+-
+string
+-
+

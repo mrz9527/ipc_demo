@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/sem.dir/信号灯.cpp.o  -o sem 
